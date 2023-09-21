@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Money Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="transfer-money-page">
+        <h2>Transfer Money</h2>
+        <header class="fixed-header">
+            <a href="#" class="logo"><b>Banking System</b></a>
+            <ul>
+              <li><a href="bankingsystem.html">Home Page</a></li>
+              <li><a href="view-customers.html">Customers</a></li>
+              <li><a href="#">Transaction History</a></li>
+            </ul>
+          </header>
+          <form id="transferForm">
+            <label for="senderId">Sender ID:</label>
+            <input type="text" id="sender" name="senderId" required><br>
+          
+            <label for="receiverId">Receiver ID:</label>
+            <input type="text" id="receiver" name="receiverId" required><br>
+          
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount" name="amount" required><br>
+          
+            <button type="submit">Transfer</button>
+          </form>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>

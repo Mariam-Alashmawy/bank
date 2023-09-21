@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: rgb(19, 18, 20);
+    text-decoration: none;
+}
+body{ 
+    background-image: linear-gradient(rgb(52, 42, 60),rgb(230, 225, 234) ); 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    } 
+.fixed-header{
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(52, 42, 60);
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+ul{
+    width: 50%;
+    margin: 0%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: rgb(19, 18, 20);
+}
+.content{
+    width: 100%;
+    height: 50px;
+    padding: 40px;
+
+}
+.content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content a{
+    margin-top: 100px;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+}
+.content a:hover{
+    border-bottom-color: rgb(19, 18, 20);
+}
+table{
+    text-align: center;
+    align-items: center;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 10px;
+}
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.view-customer-details {
+    display: inline-block;
+    background-color: #491847;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+.padding{
+    padding-top: 50px;
+}
+th, td {
+    padding: 8px;
+}
+
+th {
+    background-color: #f1e8f0;
+}
+
+tr:hover {
+    background-color: #f0eaea;
+}
+#view-customer-page {
+    max-width: 900px;
+    height: 265px;
+    margin: 0 auto;
+    background-color: #eee3f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+#customer-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+#customer-details p {
+    margin: 10px 0;
+}
+.customer-id{
+    color: #201e1e;
+}
+.customer-name {
+    color: #201e1e;
+}
+.customer-email {
+    color: #201e1e;
+}
+.customer-balance {
+    color: #201e1e;
+}
+.transfer-money{
+    display: inline-block;
+    background-color: #491847;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+#transfer-money-page {
+    text-align: center;
+}
+#transferForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#transfer-form label {
+    margin-top: 10px;
+}
+#transfer-form select, #transfer-form input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+    border: 2px solid #ccc;
+    border-radius: 4px; 
+}
+#transfer-form button {
+    display: inline-block;
+    background-color: #491847;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#transfer-form button:hover {
+    background-color: #a16d99;
+}
